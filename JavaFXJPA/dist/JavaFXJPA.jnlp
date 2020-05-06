@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXJPA.jnlp">
+  <information>
+    <title>JavaFXJPA</title>
+    <vendor>Administrator</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXJPA.jar" size="66741" download="eager" />
+    <jar href="lib\commonj.sdo_2.1.1.v201112051852.jar" size="21007" download="eager" />
+    <jar href="lib\eclipselink.jar" size="9270509" download="eager" />
+    <jar href="lib\jakarta.persistence_2.2.3.jar" size="173811" download="eager" />
+    <jar href="lib\org.motechproject.com.mysql.jdbc-5.1.32-r028.jar" size="888117" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.mcbx.jpa.eclipse.eclipse"  name="JavaFXJPA" />
+  <update check="always"/>
+</jnlp>
