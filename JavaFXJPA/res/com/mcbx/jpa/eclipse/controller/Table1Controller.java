@@ -195,7 +195,7 @@ public class Table1Controller implements Initializable {
         return authorsObservableList;
     }
 
-//    
+//
     @FXML
     void restoreDataThatIsDeleted(ActionEvent event) {
         if (deleted != null) {
@@ -247,17 +247,14 @@ public class Table1Controller implements Initializable {
                 commitConnection();
 //                TableView<Authors> v = table.getSelectionModel().getTableView();
 //                TableView<Authors> table = new TableView<>();
-//          ((Authors) t.getTableView().getItems().get(t.getTablePosition().getRow())) 
+//          ((Authors) t.getTableView().getItems().get(t.getTablePosition().getRow()))
 
-Authors aa = (Authors) column1.getTableView().getItems();
- 
-
-
+    table.getItems().set(authorsObservableList.indexOf(a),a);
 
 //                Authors tableRow = table.getItems().getClass();
-                        
+
 //                System.out.println("" + v);
-                 
+
 
 //                table.get
 //                   t.getTableView().getItems().get(t.getTablePosition().getRow()))
@@ -272,7 +269,7 @@ Authors aa = (Authors) column1.getTableView().getItems();
         }
     }
 
-//------------------------------------------------------------------------------ DELETE SELECTED    
+//------------------------------------------------------------------------------ DELETE SELECTED
     List<Authors> deleted = new ArrayList<>();
 
     @FXML
@@ -343,7 +340,7 @@ Authors aa = (Authors) column1.getTableView().getItems();
         }
     }
 
-//------------------------------------------------------------------------------ SET TABLE EDITABLE 
+//------------------------------------------------------------------------------ SET TABLE EDITABLE
     private void setTableColumnEditable() {
         try {
 
