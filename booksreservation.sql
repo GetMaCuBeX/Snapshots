@@ -11,7 +11,7 @@
  Target Server Version : 50724
  File Encoding         : 65001
 
- Date: 07/05/2020 05:45:05
+ Date: 01/06/2020 14:38:26
 */
 
 SET NAMES utf8mb4;
@@ -31,38 +31,52 @@ CREATE TABLE `authors`  (
   `integerval` int(11) NULL DEFAULT NULL,
   `doubleval` double(11, 2) NULL DEFAULT 0.00,
   PRIMARY KEY (`idauthors`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 528 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 114 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of authors
 -- ----------------------------
-INSERT INTO `authors` VALUES (1, '34', 'Zaspa', '', 'Male', '2020-04-17 14:28:36', 32, 2.00);
-INSERT INTO `authors` VALUES (2, 'Sofie', 'Gwendolyn', '09351257496', 'Female', '2020-04-29 14:28:41', 32, NULL);
-INSERT INTO `authors` VALUES (3, 'Sandara', 'Park', '', 'Female', '2020-04-07 14:28:45', 32, 565.21);
-INSERT INTO `authors` VALUES (4, 'Ryan', 'Kipling', '09658201658', 'Male', NULL, 32, 8.00);
-INSERT INTO `authors` VALUES (7, 'Hans Christian', 'Anderson', '', 'Male', NULL, 32, 6.00);
-INSERT INTO `authors` VALUES (8, 'Joel', 'Benaldo', '', 'Male', NULL, 32, NULL);
-INSERT INTO `authors` VALUES (9, 'Robert', 'Paul', '', 'Male', NULL, 32, NULL);
-INSERT INTO `authors` VALUES (10, 'Arthor', 'Ignacio', '09450646158', 'Male', NULL, 32, 7.00);
-INSERT INTO `authors` VALUES (15, 'Lesley', 'Lambating', 'jb.mcbx@outlook.com', 'Male', NULL, 32, 2.00);
-INSERT INTO `authors` VALUES (16, 'Kristina', 'Aguilar', 'joel.benaldo@google.com', 'Female', NULL, 32, 56.10);
-INSERT INTO `authors` VALUES (17, 'Janey', 'Mejos', 'helpme@yahoo.com', 'Female', NULL, 32, NULL);
-INSERT INTO `authors` VALUES (18, 'Francis', 'Bentayao', '', 'Male', NULL, 32, 878954.00);
-INSERT INTO `authors` VALUES (19, 'Gale', 'Dagunsa', '', 'Female', NULL, 32, 5.00);
-INSERT INTO `authors` VALUES (20, 'Gray', 'Gubalane', '', 'Male', NULL, 32, 78.00);
-INSERT INTO `authors` VALUES (21, 'James', 'Gasulla', '09924156511', 'Male', NULL, 32, NULL);
-INSERT INTO `authors` VALUES (22, 'Kian', 'Jordan', '', 'Male', NULL, 32, 8.01);
-INSERT INTO `authors` VALUES (23, 'Kenneth', 'Mais', '', 'Male', NULL, 32, 78.00);
-INSERT INTO `authors` VALUES (24, 'Arnel', 'Taganait', '', 'Male', NULL, 32, 2.00);
-INSERT INTO `authors` VALUES (25, 'James', 'Osman', '', 'Male', NULL, 32, 78.00);
-INSERT INTO `authors` VALUES (26, 'Jude', 'Emiliano', '', 'Male', NULL, 32, 8.00);
-INSERT INTO `authors` VALUES (27, 'Male', 'Delima', '', 'Male', NULL, 32, 78.00);
-INSERT INTO `authors` VALUES (185, 'James', 'Bond', 'james.com@yahoo.com', 'Male', NULL, NULL, NULL);
-INSERT INTO `authors` VALUES (457, '71', 'Scooby', '09587931547', 'Male', NULL, NULL, NULL);
-INSERT INTO `authors` VALUES (458, '52', 'Scooby', '09587931547', 'Male', NULL, NULL, NULL);
-INSERT INTO `authors` VALUES (459, '80', 'Scooby', '09587931547', 'Male', NULL, NULL, NULL);
-INSERT INTO `authors` VALUES (460, 'Jojo', 'Scooby', '09587931547', 'Male', NULL, NULL, NULL);
-INSERT INTO `authors` VALUES (462, 'Jojo', 'Scooby', '09587931547', 'Male', NULL, NULL, NULL);
+INSERT INTO `authors` VALUES (1, 'Leley', 'Zaspa', '', 'Male', '2020-04-17 14:28:36', 2, 2.00);
+INSERT INTO `authors` VALUES (2, 'Sofie', 'Gwendolyn', '09351257496', 'Female', '2020-04-29 14:28:41', NULL, NULL);
+INSERT INTO `authors` VALUES (3, 'Sandara', 'Park', '', 'Female', '2020-04-07 14:28:45', 45, 565.21);
+INSERT INTO `authors` VALUES (4, 'Ryan', 'Kipling', '09658201658', 'Male', NULL, 4, 8.00);
+INSERT INTO `authors` VALUES (7, 'Hans Christian', 'Anderson', '', 'Male', NULL, 3416, 6.00);
+INSERT INTO `authors` VALUES (8, 'Joel', 'Benaldo', '', 'Male', NULL, 456, NULL);
+INSERT INTO `authors` VALUES (9, 'Robert', 'Paul', '', 'Undefined', NULL, 12, NULL);
+INSERT INTO `authors` VALUES (10, 'Arthor', 'Ignacio', '09450646158', 'Male', NULL, 3, 7.00);
+INSERT INTO `authors` VALUES (15, 'Lesley', 'Lambating', 'jb.mcbx@outlook.com', 'Male', NULL, NULL, 2.00);
+INSERT INTO `authors` VALUES (16, 'Kristina', 'Aguilar', 'joel.benaldo@google.com', 'Female', NULL, 45, 56.10);
+INSERT INTO `authors` VALUES (17, 'Janey', 'Mejos', 'help@yahoo.com', 'Undefined', NULL, NULL, NULL);
+INSERT INTO `authors` VALUES (18, 'Francis', 'Bentayao', '', 'Undefined', NULL, 5, 878954.00);
+INSERT INTO `authors` VALUES (19, 'Gale', 'Dagunsa', '', 'Undefined', NULL, 21, 5.00);
+INSERT INTO `authors` VALUES (20, 'Gray', 'Gubalane', '', 'Undefined', NULL, 5, 78.00);
+INSERT INTO `authors` VALUES (21, 'Jushua', 'Gasulla', '09924156511', 'Undefined', NULL, NULL, NULL);
+INSERT INTO `authors` VALUES (22, 'Kian', 'Jordan', '', 'Undefined', NULL, 54, 8.01);
+INSERT INTO `authors` VALUES (23, 'Kenneth', 'Mais', '', 'Undefined', NULL, NULL, 78.00);
+INSERT INTO `authors` VALUES (24, 'Arnel', 'Taganait', '', 'Male', NULL, 556, 2.00);
+INSERT INTO `authors` VALUES (25, 'James', 'Osman', '', 'Male', NULL, 45, 78.00);
+INSERT INTO `authors` VALUES (26, 'Jude', 'Emiliano', '', 'Male', NULL, NULL, 8.00);
+INSERT INTO `authors` VALUES (27, 'Male', 'Delima', '', 'Male', NULL, NULL, 78.00);
+INSERT INTO `authors` VALUES (31, 'Alken George', 'Zaspa', '', 'Male', NULL, 4565, 8.00);
+INSERT INTO `authors` VALUES (32, 'Joey', 'Bentayao', '', 'Male', NULL, 456, 78.00);
+INSERT INTO `authors` VALUES (68, 'Lea Mae', 'Ferando', '', 'Female', NULL, NULL, NULL);
+INSERT INTO `authors` VALUES (97, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (98, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (99, 'Jojo', 'Scooby', '09587931547', 'Male', NULL, NULL, NULL);
+INSERT INTO `authors` VALUES (100, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (101, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (102, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (103, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (104, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (105, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (106, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (107, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (108, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (109, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (110, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (111, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (112, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
+INSERT INTO `authors` VALUES (113, 'Pankaj', NULL, NULL, NULL, NULL, NULL, 0.00);
 
 -- ----------------------------
 -- Table structure for books
